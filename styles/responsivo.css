@@ -1,0 +1,16 @@
+@media screen and (max-width: 1175px){
+    .logo h1{
+        font-size: 30px;
+    }
+    #best{
+        font-size: 50px;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .logo h1{
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+}

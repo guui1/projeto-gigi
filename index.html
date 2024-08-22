@@ -1,71 +1,111 @@
 <!DOCTYPE html>
 <html lang="ptbr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de apresentação Gi Alves">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="script.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site de apresentação Gi Alves" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsivo.css" />
+    <script type="text/javascript" src="script.js" defer></script>
     <title>GI Alves</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Seção da barra de navegação da parte superior -->
     <header class="head">
-        <div class="logo">
-            <h1>Giovanna Alves</h1>
-        </div>
-            
-            
-        <div class="head-logo">
-            <img src="img/logo-gigi.jpg">
-        </div>
+      <div class="logo">
+        <h1>Giovanna Alves</h1>
+      </div>
+      <div class="head-logo">
+        <img src="img/logo-gigi.jpg" />
+      </div>
 
-
-        <div class="nav-botton">
-            <a href="#">HOME</a>
-            <a target="_blank" href="https://www.instagram.com/giovannabeautyy/">SERVIÇOS</a>
-            <a id="botton" href="#">CONTRATE JÁ</a>
-        </div>
+      <div class="nav-botton">
+        <a href="#">HOME</a>
+        <a target="_blank" href="https://www.instagram.com/giovannabeautyy/"
+          >SERVIÇOS</a
+        >
+        <a id="botton" href="#">CONTRATE JÁ</a>
+      </div>
     </header>
-        <main class="main">
-            <div class="main-add">
-                <h2 style="letter-spacing: 5px;">Maquiagem Sombrancelhas Cursos e Cabelos</h2>
-                <h2 style="font-size: 70px;">A melhor de Lisboa</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, quis. Est dignissimos, eaque ex repudiandae praesentium a inventore doloribus cumque, fugiat fugit nulla consequatur soluta error voluptates enim odit repellat.</p>
-                <a href="https://www.youtube.com/">Contrate ja</a>
+    <!-- Seção da tela de abertura, seção principal  -->
+    <main class="main">
+      <div class="main-add">
+        <!-- Anuncio por escrito -->
+        <h2 style="letter-spacing: 5px">
+          Maquiagem Sombrancelhas Cursos e Cabelos
+        </h2>
+        <h2 id="best">A melhor de Lisboa</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, quis.
+          Est dignissimos, eaque ex repudiandae praesentium a inventore
+          doloribus cumque, fugiat fugit nulla consequatur soluta error
+          voluptates enim odit repellat.
+        </p>
+        <!-- Botao de contrate -->
+        <a href="https://www.youtube.com/">Contrate ja</a>
+      </div>
+      <!-- container IMAGEM PRINCIPAL / carrosel de imagens -->
+      <div class="container-slider">
+          <!-- IMAGEM de seta do carrosel --> 
+          <button id="prev-button"><img src="img/arrow.png" alt="seta" /></button>
+          <!-- Container do carrosel -->
+          <div class="container-images">
+              <img src="img/image-gigi.jpg" class="slider on" />
+              <img src="img/image-gigi-02.jpg" class="slider" />
+              <img src="img/image-gigi-02.jpg" class="slider" />
+              <img src="img/image-gigi-04.jpg" class="slider" />
+              <img src="img/image-gigi-05.jpg" class="slider" />
+              <img src="img/image-gigi-07.jpg" class="slider" />
             </div>
-            <!-- IMAGEM PRINCIPAL --> 
-            <div class="container-slider">
-                <button id="prev-button"><img src="img/arrow.png" alt="seta"> </button>
-                <div class=" titi container-images">
-                <img src="img/image-gigi.jpg" class="  slider on">
-                <img src="img/image-gigi-02.jpg" class= "  slider">
-                <img src="img/image-gigi-02.jpg" class="  slider">
-                <img src="img/image-gigi-04.jpg" class="slider ">
-                <img src="img/image-gigi-05.jpg" class="slider ">
-                <img src="img/image-gigi-07.jpg" class="slider ">
+            <!-- IMAGEM de seta do carrosel --> 
+        <button id="next-button">
+          <img src="img/arrow.png" alt="next_button" />
+        </button>
+      </div>
+      <!-- FIM Do carrosel de imagens-->
+    </main>
 
-                
-                </div>
-                <button id="next-button"><img src="img/arrow.png" alt="next_button">
-                </button>
-            </div>
-            <!-- FIM DA IMAGEM -->
-        </main>
     <section class="sec-title">
-        <div class="title">
-            <h2>Confira alguns trabalhos!</h2>
-        </div>
+      <div class="title">
+        <h2>Confira alguns trabalhos!</h2>
+      </div>
     </section>
+<!-- Seção dos cards/ anuncio sobre os trabalhos -->
+    <section class="sec-cards">
+        <!-- Link e imgs dos cards -->
+        <a
+        target="_blank"
+        class="cards"
+        href="https://www.instagram.com/stories/highlights/17844964734034039/"
+        ><img src="img/maqui.png"
+        /></a>
+        <!-- Link e imgs dos cards -->
+        <a
+        target="_blank"
+        class="cards"
+        href="https://www.instagram.com/stories/highlights/17981679599614169/"
+        ><img src="img/hair.png"
+        /></a>
+        <!-- Link e imgs dos cards -->
+        <a
+        target="_blank"
+        class="cards"
+        href="https://www.instagram.com/stories/highlights/17869162408538545/"
+        ><img src="img/sombra.png"
+        /></a>
+        <!-- Link e imgs dos cards -->
+      <a
+        target="_blank"
+        class="cards"
+        href="https://www.instagram.com/stories/highlights/17943905741412549/"
+        ><img src="img/cursos.png"
+      /></a>
 
-    <section  class="sec-cards">
-        <a target="_blank" class="cards" href="https://www.instagram.com/stories/highlights/17844964734034039/"><img src="img/maqui.png"></a>
-        <a target="_blank" class="cards" href="https://www.instagram.com/stories/highlights/17981679599614169/"><img src="img/hair.png"></a>
-        <a target="_blank" class="cards" href="https://www.instagram.com/stories/highlights/17869162408538545/"><img src="img/sombra.png"></a>
-        <a target="_blank" class="cards" href="https://www.instagram.com/stories/highlights/17943905741412549/"><img src="img/cursos.png"></a>
     </section>
+    <!-- Seção do rodapé -->
     <footer class="cont-foot">
-        <h3 class="title-foot">Giovanna Alves</h3>
-        <img class="img-foot" src="img/logo-gigi.jpg">
+      <h3 class="title-foot">Giovanna Alves</h3>
+      <img class="img-foot" src="img/logo-gigi.jpg" />
     </footer>
-</body>
-</html> 
+  </body>
+</html>
